@@ -1,0 +1,66 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# http://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class RumahsakitItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    tgl_update = scrapy.Field()
+    kode = scrapy.Field()
+    tgl_registrasi = scrapy.Field()
+    nama = scrapy.Field()
+    jenis = scrapy.Field()
+    kelas = scrapy.Field()
+    direktur = scrapy.Field()
+    alamat = scrapy.Field()
+    penyelenggara = scrapy.Field()
+    kab_kota = scrapy.Field()
+    kode_pos = scrapy.Field()
+    tlp = scrapy.Field()
+    fax = scrapy.Field()
+    email = scrapy.Field()
+    tlp_humas = scrapy.Field()
+    website = scrapy.Field()
+    luas_tanah = scrapy.Field()
+    luas_bangunan = scrapy.Field()
+    ijin_no = scrapy.Field()
+    ijin_tgl = scrapy.Field()
+    ijin_pemberi = scrapy.Field()
+    ijin_sifat = scrapy.Field()
+    ijin_masa_berlaku = scrapy.Field()
+    ijin_status_penyelenggara = scrapy.Field()
+    khusus_swasta = scrapy.Field()
+    akreditas_pentahapan = scrapy.Field()
+    akreditas_status = scrapy.Field()
+    akreditas_tgl = scrapy.Field()
+    bangsal_vvip = scrapy.Field()
+    bangsal_vip = scrapy.Field()
+    bangsal_i = scrapy.Field()
+    bangsal_ii = scrapy.Field()
+    bangsal_iii = scrapy.Field()
+    dokter_sp_a = scrapy.Field()
+    dokter_sp_og = scrapy.Field()
+    dokter_sp_pd = scrapy.Field()
+    dokter_sp_b = scrapy.Field()
+    dokter_sp_rad = scrapy.Field()
+    dokter_sp_rm = scrapy.Field()
+    dokter_sp_an = scrapy.Field()
+    dokter_sp_jp = scrapy.Field()
+    dokter_sp_m = scrapy.Field()
+    dokter_sp_tht = scrapy.Field()
+    dokter_sp_kj = scrapy.Field()
+    dokter_umum = scrapy.Field()
+    dokter_gigi = scrapy.Field()
+    dokter_sp_gigi = scrapy.Field()
+    perawat = scrapy.Field()
+    bidan = scrapy.Field()
+    farmasi = scrapy.Field()
+    tenaga_kes_lainnya = scrapy.Field()
+    tenaga_non_kes = scrapy.Field()
+    id = scrapy.Field()
